@@ -138,7 +138,7 @@ def add_data_category():
     query = "INSERT INTO categories(category_name) VALUES (%s)"
     values = (nome,)
     execute_query2(query, values)
-
+    print("aggiunta stampa")
     return f"Il nome {nome} è stato aggiunto alle categorie."
 
 
