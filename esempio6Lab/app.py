@@ -140,6 +140,7 @@ def add_data_category():
     execute_query2(query, values)
     print("aggiunta stampa")
     print("aggiunta altra stampa")
+    print("aggiunta altra stampa2")
 
     return f"Il nome {nome} è stato aggiunto alle categorie."
 
